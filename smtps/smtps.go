@@ -107,4 +107,3 @@ func SendMail(tos []string, from, subject, content, mailHost, mailPassword, mail
 	log.Println("Mail sent successfully")
 	return nil
 }
-

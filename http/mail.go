@@ -4,9 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/open-falcon/mail-provider/config"
-	"github.com/open-falcon/mail-provider/smtps"
-	//	"../smtps"
+	"github.com/linyy2233/http-mail/config"
+	"github.com/linyy2233/http-mail/smtps"
 	"github.com/toolkits/smtp"
 	"github.com/toolkits/web/param"
 )

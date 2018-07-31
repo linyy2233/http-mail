@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/open-falcon/mail-provider/config"
+	"github.com/linyy2233/http-mail/config"
 )
 
 func configCommonRoutes() {
