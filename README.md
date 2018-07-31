@@ -9,10 +9,7 @@ mail-provider
 1.二进制安装(推荐)
 下载编译好的二进制
 ```bash
-wget http://cactifans.hi-www.com/open-falcon/mail-provider.tar.gz
-mkdir -p mail-provider
-tar zxvf mail-provider.tar.gz  -C mail-provider
-cd mail-provider
+wget https://raw.githubusercontent.com/linyy2233/http-mail/master/falcon-http-mail
 ```
 修改cfg.json文件相关信息，使用
 ```bash
