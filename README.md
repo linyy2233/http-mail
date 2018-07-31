@@ -6,8 +6,21 @@ mail-provider
 
 ## 安装方法
 
+1.二进制安装(推荐)
+下载编译好的二进制
+```bash
+wget http://cactifans.hi-www.com/open-falcon/mail-provider.tar.gz
+mkdir -p mail-provider
+tar zxvf mail-provider.tar.gz  -C mail-provider
+cd mail-provider
+```
+修改cfg.json文件相关信息，使用
+```bash
+./control start
+```
+即可启动客户端
 
-1.源码编译（如无科学上网方法，请勿尝试）
+2.源码编译（如无科学上网方法，请勿尝试）
 下载之后为源码，安装golang环境，环境配置参考[golang环境配置](http://book.open-falcon.org/zh/quick_install/prepare.html)
 编译方法
 ```bash
