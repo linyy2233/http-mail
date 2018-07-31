@@ -1,0 +1,13 @@
+{
+    "debug": true,
+    "http": {
+        "listen": "0.0.0.0:3000",
+        "token": ""
+    },
+    "smtp": {
+        "addr": "smtp.qq.com",
+        "username": "9692135@qq.com",
+        "password": "l222dg",
+        "from": "liny33@qq.com"
+    }
+}
