@@ -9,7 +9,8 @@ mail-provider
 1.二进制安装(推荐)
 下载编译好的二进制
 ```bash
-wget https://raw.githubusercontent.com/linyy2233/http-mail/master/falcon-http-mail
+git clone https://github.com/linyy2233/http-mail.git
+cd http-mail
 ```
 修改cfg.json文件相关信息，使用
 ```bash
@@ -40,7 +41,7 @@ go get ./...
 下载之后为源码，需要编译
 
 ```
-curl http://$ip:4000/sender/mail -d "tos=a@a.com,b@b.com&subject=xx&content=yy"
+curl http://$ip:3000/sender/sslmail -d "tos=a@a.com,b@b.com&subject=xx&content=yy"
 ```
 
 ## FAQ
